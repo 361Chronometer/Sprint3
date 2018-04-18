@@ -184,7 +184,8 @@ public class Simulator {
 		// need to do - printer text box and console text box
 		JFrame f= new JFrame(); 
 		
-		// allows the textfields to print console
+		// allows the textfields to print console - edit this method or add another 
+		// to change the output to the different text fields
 		class CustomOutputStream extends OutputStream {
 		    private JTextArea textArea;
 		     
